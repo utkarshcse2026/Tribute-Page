@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Use cover to fill the entire background */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Change text color to a slightly darker shade */
+}
+
+header {
+    background-color: #FF5733; /* Change background color to a bright color */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Your Fancy Font', cursive; /* Replace 'Your Fancy Font' with the desired font */
+}
+
+h1 {
+    margin: 0;
+}
+
+#content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly increase the opacity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FF5733;
+    border-radius: 10px;
+    text-align: center; /* Center the content */
+}
+
+.sticker {
+    position: absolute;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Use block to center the image horizontally */
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    color: black; /* Change text color to a bright color */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #FF5733; /* Change background color to a bright color */
+    color: white;
+    font-family: 'Your Fancy Font', french; /* Replace 'Your Fancy Font' with the desired font */
+}
